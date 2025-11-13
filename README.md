@@ -51,8 +51,11 @@ Suggestion: revert chalk to ^4.1.2 or fix import in helpers.js
 
 ### Using npm
 ```bash
+npm install -g chalk
+npm login --registry=https://npm.pkg.github.com
 npm install -g @thelonewolf39/what-broke-my-code --registry=https://npm.pkg.github.com
 ```
+You will need a PAT with scopes of read:package.
 
 ---
 
