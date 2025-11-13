@@ -1,8 +1,7 @@
 {
-  "name": "what-broke-my-code",
+  "name": "@YOUR_GITHUB_USERNAME/what-broke-my-code",
   "version": "0.1.0",
-  "description": "A CLI detective that figures out what broke your build — before you do.",
-  "type": "module",
+  "description": "A CLI detective that figures out what broke your build.",
   "main": "bin/wbmc.js",
   "bin": {
     "wbmc": "./bin/wbmc.js"
@@ -10,28 +9,16 @@
   "scripts": {
     "test": "node tests/test.js"
   },
-  "keywords": [
-    "cli",
-    "developer-tools",
-    "debugging",
-    "git",
-    "error-tracking",
-    "build-failure",
-    "devtool",
-    "bug-detection",
-    "automation"
-  ],
-  "author": "thelonewolf39",
+  "author": "Aiden",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.6.2",
-    "dotenv": "^17.2.3",
-    "fs-extra": "^11.3.2",
-    "inquirer": "^12.11.1",
-    "node-fetch": "^3.3.2",
-    "simple-git": "^3.30.0"
+    "chalk": "^5.0.0",
+    "simple-git": "^3.17.0",
+    "node-fetch": "^3.0.0",
+    "inquirer": "^9.0.0",
+    "fs-extra": "^11.0.0"
   },
-  "engines": {
-    "node": ">=18"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
