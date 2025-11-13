@@ -1,0 +1,37 @@
+{
+  "name": "what-broke-my-code",
+  "version": "0.1.0",
+  "description": "A CLI detective that figures out what broke your build — before you do.",
+  "type": "module",
+  "main": "bin/wbmc.js",
+  "bin": {
+    "wbmc": "./bin/wbmc.js"
+  },
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "debugging",
+    "git",
+    "error-tracking",
+    "build-failure",
+    "devtool",
+    "bug-detection",
+    "automation"
+  ],
+  "author": "thelonewolf39",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "dotenv": "^17.2.3",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^12.11.1",
+    "node-fetch": "^3.3.2",
+    "simple-git": "^3.30.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
