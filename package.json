@@ -1,5 +1,5 @@
 {
-  "name": "@YOUR_GITHUB_USERNAME/what-broke-my-code",
+  "name": "@thelonewolf39/what-broke-my-code",
   "version": "0.1.0",
   "description": "A CLI detective that figures out what broke your build.",
   "main": "bin/wbmc.js",
